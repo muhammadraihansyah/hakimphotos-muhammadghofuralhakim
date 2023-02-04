@@ -1,0 +1,427 @@
+.navbar-brand {
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 28px;
+
+}
+
+.nav-item {
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 27px;
+}
+
+.nav-item .nav-link.active {
+  font-weight: 700;
+  color: #94c045!important;  
+}
+
+.nav-link {
+    color: grey !important;
+}
+
+.nav-link:hover {
+    color: #94c045!important;  
+}
+
+/* hero section */
+
+.hero-section {
+   margin-top: 30px;
+}
+.tag {
+    z-index: 1;
+    padding: .25rem 1.25rem;
+    position: absolute;
+    bottom: 0;
+    left: 50px;
+    border-radius: 0px 20px;
+    min-height: 30px;
+}
+.tag span {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+
+.tag h5 {
+    font-weight: 900;
+}
+
+.hero-thumbnail {
+    width: 100%;
+    height: 500px;
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+}
+
+.hero-img {
+    width: 100%;
+    height: 100%;
+
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.btn-cta {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.btn {
+    border-radius: 18px 18px 18px 18px;
+}
+/* hero section */
+
+
+
+/* About */
+.about {
+    margin-top: 30px;
+    background: grey;
+}
+.about-img {
+    padding-top: 20px;
+}
+.about h4 {
+    padding-top: 20px;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+}
+
+.about p {
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+text-align: justify;
+}
+/* Tutup About */
+
+.section-tittle {
+    border-bottom: 3px solid #94c045;
+        width: 20%;
+        padding-bottom: 5px;
+        margin-bottom: 10px;
+}
+/* Footer */
+.footer-top {
+    background: #1c1f18;
+    margin-top: 20px;
+    padding-top: 60px;
+    padding-bottom: 90px;
+}
+
+.footer-top h2 {
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 40px;
+line-height: 54px;
+color: #9fc658;
+}
+
+.footer-top h4 {
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 30px;
+color: #fff;
+}
+.footer-top p {
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 30px;
+color: #fff;
+}
+
+.footer-bottom {
+
+    background: #3c4133;
+    text-align: center;
+    margin-top: -10px;
+}
+
+.footer-bottom p {
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 30px;
+color: #fff;
+}
+
+.footer-bottom a {
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 30px;
+color: #9fc658;
+}
+/* Tutup Footer */
+
+/* Breadcrumbs */
+.breadcrumb {
+    background: #fff;
+}
+
+.breadcrumb a {
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 27px;
+    color: #94c045;
+}
+/* Tutup Breadcrumbs */
+
+/* Trend Categories */
+.categories {
+    text-align: center;
+}
+
+.categories h2 {
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+color: #646c55;
+}
+
+.categories h5 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    color: #646c55;
+}
+
+.component-categories {
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    transition: all 0.3s ease-in-out;
+}
+
+.component-categories:hover {
+    transform: scale(1.1);
+}
+/* Tutup Trend Categories */
+
+/* Product Details */
+.product-details {
+    margin-top: 30px;
+}
+
+.big-foto {
+    width:  800px;
+    height: 700px;
+    transition: all 0.3s ease-in-out;
+}
+
+.small-foto {
+    width: 250px;
+    height: 500px;
+}
+
+.big-foto:hover {
+    transform: scale(1.1);
+}
+/* Tutup Product Details */
+
+/* Deskripsi Product */
+.deskripsi-product h2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    color: #000;
+}
+
+.deskripsi-product p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    color: #646c55; 
+}
+
+.booking-information h4 {
+    color: #94c045;
+}
+
+.booking-information .btn {
+    width: 200px;
+}
+
+
+/* Tutup Deskripsi Product */
+
+/* Review */
+.testimonial {
+    padding-top: 22px;
+    padding-bottom: 22px;
+    margin-top: 100px;
+    margin-bottom: 200px;
+}
+.testimonial-img {
+    z-index: 1;
+    position: absolute;
+    margin: 30px 0px 0px 30px;
+    width: 370px;
+    height: 500px;
+ 
+}
+
+
+.testimonial-text {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 54px;
+
+color: #000000;
+}
+
+.testimonial-name {
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 22px;
+/* identical to box height */
+
+
+color: rgba(0, 0, 0, 0.29);
+
+}
+
+.btn-testimonial {
+    background-color: blue;
+    transition: all 0.3s ease;
+margin-top: 30px;
+    width: 150px;
+    height: 38px;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+line-height: 22px;
+/* identical to box height */
+
+
+color:wheat;
+
+}
+
+.btn-testimonial:hover {
+    box-shadow: 0px 8px 15px rgba(50, 82, 223, 0.3);
+    border-radius: 4px;
+    transform: scale(1.1);
+}
+/* Tutup Review */
+
+/* Tittle */
+.tittle {
+    margin-top: 50px;
+}
+
+.tittle h1 {
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+}
+
+.tittle p {
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+color: rgba(0, 0, 0, 0.6);
+}
+/* Tutup Tittle */
+
+/* Form Data Customer */
+.form-data {
+    margin-top: 100px;
+}
+.form-data .table {
+    margin-top: 30px;
+    padding-left: 400px;
+}
+.form-data th {
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+color: red;
+}
+/* Tutup Form Data Customer */
+
+/* Button Cta */
+.button-cta {
+    margin-top: 20px;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+}
+
+.btn-cta1 {
+    margin-bottom: 10px;
+}
+/* Tutup Button Cta */
+
+/* Pembayaran */
+
+.pembayaran {
+    margin-top: 100px;
+}
+
+.tax-pembayaran {
+    padding-top: 20px;
+}
+.tax-pembayaran p{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+}
+
+.pembayaran .form-group {
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+/* Tutup Pembayaran */
+
+/* Finish */
+
+.finish img {
+ width: 500px;
+ height: 500px;
+ margin-bottom: 50px;
+}
+
+.finish p {
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 30px;
+text-align: center;
+
+}
+/* Tutup Finish */
